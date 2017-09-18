@@ -219,6 +219,7 @@
   <ItemGroup>
     <Compile Include="Args.cs" />
     <Compile Include="GitHub.Api\LoginManagerTests.cs" />
+    <Compile Include="GitHub.Api\NewConnectionManagerTests.cs" />
     <Compile Include="GitHub.Api\SimpleApiClientFactoryTests.cs" />
     <Compile Include="GitHub.Api\SimpleApiClientTests.cs" />
     <Compile Include="GitHub.App\Caches\ImageCacheTests.cs" />

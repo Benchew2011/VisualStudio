@@ -57,9 +57,12 @@
     <Compile Include="ApiClientConfiguration_User.cs" Condition="$(Buildtype) != 'Internal'" />
     <Compile Include="IKeychain.cs" />
     <Compile Include="ILoginManager.cs" />
+    <Compile Include="INewConnectionManager.cs" />
     <Compile Include="ITwoFactorChallengeHandler.cs" />
     <Compile Include="LoginManager.cs" />
     <Compile Include="KeychainCredentialStore.cs" />
+    <Compile Include="NewConnection.cs" />
+    <Compile Include="NewConnectionManager.cs" />
     <Compile Include="WindowsKeychain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="..\common\SolutionInfo.cs">

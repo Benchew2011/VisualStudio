@@ -136,6 +136,7 @@
     <Compile Include="Models\DiffUtilities.cs" />
     <Compile Include="Models\ICommentModel.cs" />
     <Compile Include="Models\IInlineCommentModel.cs" />
+    <Compile Include="Models\INewConnection.cs" />
     <Compile Include="Models\IPullRequestReviewCommentModel.cs" />
     <Compile Include="Settings\PkgCmdID.cs" />
     <Compile Include="ViewModels\IHasErrorState.cs" />
