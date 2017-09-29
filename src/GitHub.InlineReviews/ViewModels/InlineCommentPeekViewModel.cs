@@ -156,7 +156,7 @@ namespace GitHub.InlineReviews.ViewModels
             else
             {
                 var newThread = new NewInlineCommentThreadViewModel(session, file, lineNumber, leftBuffer);
-                threadSubscription = newThread.Finished.Subscribe(_ => UpdateThread().Forget());
+                file.LinesChanged.Subscribe(_ => UpdateThread().Forget());
                 Thread = newThread;
             }
 
